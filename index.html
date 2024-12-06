@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/3233a2ff1c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
     <title>DevClub - Music</title>
 </head>
 
@@ -12,15 +13,65 @@
     <div class="container">
 
         <nav>
-            <div>
+            <div class="nav-logo">
                 <i class="fa-brands fa-spotify"></i>
 
             </div>
+                
+                
+            <div class="nav-library">
+                <i class="fa-solid fa-book"></i>
+                <p>Sua Biblioteca +</p>
+            </div>
+
+            <div>
+                <h5>Crie sua primeira Playlist</h5>
+                <p>É fácil, vamos te ajudar</p>
+                <button>Criar Playlist</button>
+            </div>
+
+            <div>
+                <h5>QUe tal seguir um POdcast</h5>
+                <p>Avisaremos você sobre nossos episódios</p>
+                <button>Explore Podcast</button>
+
+            </div>
+
+            <div class="nav-footer">
+                <a href="#">Lagal</a>
+                <a href="#">Centro de Privacidade</a>
+                <a href="#">Política de Preivacidade</a>
+                <a href="#">Cookies</a>
+                <a href="#">Sobre Anúncios</a>
+                <a href="#">Acessibilidade</a>
+                
+            </div>
+
+            <button class="nav-lang-footer">
+                Português do Brasil
+                <i class="fa-solid fa-globe"></i>
+            </button>
+
 
         </nav>
 
 
         <main>
+            <header class="search-bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input placeholder="Oque você quer ouvir ?">
+            </header>
+
+            <section class="content">
+                <h2>Artistas Populares</h2>
+                <div class="artists-grid"></div>
+                <!--Inserir dados com JS-->
+
+                <h2>Albuns Populares</h2>
+                <div class="albums-grid"></div>
+                <!--Inserir dados com JS-->
+
+            </section>
 
         </main>
     </div>
