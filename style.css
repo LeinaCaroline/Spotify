@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar{
+    width: 300px;
+    background-color: #121212;
+    padding: 24px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.nav-logo i{
+    font-size: 24px;
+
+}
+
+.nav-library {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-library i, .nav-library p{
+    color: #B7B6B3;
+    font-size: 14px;
+
+}
+
+.nav-playlist, .nav-podcast{
+    background-color: #242424;
+    padding: 16px;
+    border-radius: 8px;
+
+}
+
+.nav-playlist button{
+    background-color: #fff;
+    color: #000;
+    border:none;
+    padding: 6px 10px;
+    margin-top: 16px;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 20px;
+     
+}
