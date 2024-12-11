@@ -1,7 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", serif;
 }
 
 body{
@@ -59,4 +63,35 @@ body{
     font-size: 12px;
     border-radius: 20px;
      
+}
+
+nav-playlist p, .nav-podcast p{
+    font-size: 12px;
+
+}
+
+.nav-footer{
+    margin-top: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.nav-footer a{
+    color: #a7a7a7;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 12px;
+    margin-bottom: 8px;
+}
+
+.nav-lang-button{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 8px 12px;
+    margin-top: 16px;
+    cursor:pointer;
+    border-radius: 20px;
+
 }
