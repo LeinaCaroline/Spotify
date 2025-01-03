@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', ()=>{
 
     const artistsData = [
-        { name: 'Henrique & Juliano',image:'./img/album-white-noise.jpg'},
+        { name: 'Henrique & Juliano',image:'./img/album-white-noise.jpg'}, // veja isso
         { name: 'Jorge & Mateus', image:'./img/artista-luan-santana.jpg'},
         { name: 'Zé Neto & Cristiano', image:'./img/album-white-noise.jpg'},
         { name: 'Gusttavo Lima', image: './img/artista-luan-santana.jpg'},
@@ -32,7 +32,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
                 artistCard.innerHTML = ` 
                 <img src = "${artist.image}" alt = "imagem de ${artist.name}">
-                
                 <h3>${artist.name}</h3>
                 <p>Artista</p>
                 
